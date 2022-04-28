@@ -15,9 +15,9 @@ const graph = [
   
   // Adjacent List
   //       0    1     2        3
-  const graph = [[2], [2, 3], [0, 1, 3], [1, 2]];
+  const graph1 = [[2], [2, 3], [0, 1, 3], [1, 2]];
   
-  const graph = {
+  const graph2 = {
     0: [2],
     1: [2, 3],
     2: [0, 1, 3],
@@ -26,14 +26,14 @@ const graph = [
   
   // Adjacent Matrix
   
-  const graph = [
+  const graph3 = [
     [0, 0, 1, 0],
     [0, 0, 1, 1],
     [1, 1, 0, 1],
     [0, 1, 1, 0],
   ];
   
-  const graph = {
+  const graph4 = {
     0: [0, 0, 1, 0],
     1: [0, 0, 1, 1],
     2: [1, 1, 0, 1],
